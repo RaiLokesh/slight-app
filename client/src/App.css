@@ -19,7 +19,7 @@ a{
 }
 .home-card{
   width: 95%;
-	height: 500px;
+	min-height: 500px;
 	background:white;
 	box-shadow:2px 2px 12px rgba(0,0,0,0.2);
 	margin: 2%  auto 20px auto;

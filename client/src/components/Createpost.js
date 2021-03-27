@@ -43,7 +43,7 @@ const Createpost = () => {
             />
             <br/><br/><br/>
             <input type="text"
-            placeholder="Description of the problem in about 60-70 words"
+            placeholder="Description of the problem in about 100 words"
             value={body}
             onChange={(e)=>setBody(e.target.value)}
             />
