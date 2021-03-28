@@ -15,6 +15,10 @@ I have used MongoDB, Express JS, React JS, and Node JS i.e. the MERN stack for m
 <br><br>
 Let’s have a look at the website.
 <br><br>
+
+<h3>Signup Screen</h3>
+<img src = "https://github.com/RaiLokesh/slight-app/blob/master/demo-img/signin.jpg?raw=true" height="400" width="700"></img>
+
 <ul>
 <li>node version: 14.3.0</li>
 <li>npm version: 6.14.5</li>
