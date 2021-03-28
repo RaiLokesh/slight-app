@@ -25,7 +25,6 @@ const Navbar = () => {
             <ul id="nav-mobile" className="right hide-on-med-and-down">
                         <li key="3"><Link to="/ask">Ask</Link></li>
                         <li key="4"><Link to="#">{user}</Link></li>
-                        console.log()
                         <li key="5"><Link to="#"><i className="fa fa-sign-out" onClick={()=>{
                             localStorage.clear()
                             dispatch({type:"CLEAR"})
