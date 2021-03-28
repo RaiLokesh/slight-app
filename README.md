@@ -56,7 +56,9 @@ Let’s have a look at the website.
 <li>Get the dependencies for server side from <a href="https://github.com/RaiLokesh/slight-app/blob/master/package.json">package.json</a>
 </ul>
 <br>
-
+<br>
+<b>You can find the demo of the website <a href="https://www.youtube.com/watch?v=mFxLlltNfgQ">here.</a>
+<br>
 
 
 
