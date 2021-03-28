@@ -1,4 +1,4 @@
-<img src="https://github.com/RaiLokesh/slight-app/blob/master/client/public/circle-cropped.png?raw=true" height="150" width="150"></img><b><h1>Slight</h1></b>
+<img src="https://github.com/RaiLokesh/slight-app/blob/master/client/public/circle-cropped.png?raw=true" height="125" width="150"></img><b><h1>Slight</h1></b>
 <br><br>
 Hey everyone,
 <br><br>
