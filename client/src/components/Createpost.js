@@ -10,7 +10,7 @@ const Createpost = () => {
     const [title, setTitle] = useState("")
     const[body, setBody] = useState("")
     const PostData = ()=>{
-        fetch("/ask",{
+        fetch("http://localhost:5000/ask",{
             method:"post",
             headers:{
               "Content-Type":"application/json",

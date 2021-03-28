@@ -7,7 +7,7 @@ const Home = () => {
     const {state, dispatch} = useContext(UserContext)
     const [data, setData] = useState([])
     useEffect(()=>{
-            fetch('/home',{
+            fetch('http://localhost:5000/home',{
                 headers:{
                     "Authorization":"Bearer "+localStorage.getItem("jwt")
                 }
@@ -19,7 +19,7 @@ const Home = () => {
     },[])
 
     const makeComment = (text, postId)=>{
-        fetch('/comment',{
+        fetch('http://localhost:5000/comment',{
             method:"put",
             headers:{
                 "Content-Type":"application/json",
