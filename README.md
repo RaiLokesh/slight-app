@@ -1,4 +1,4 @@
-<img src="https://github.com/RaiLokesh/slight-app/blob/master/client/public/circle-cropped.png?raw=true" height="100" width="200"></img><h1><b>Slight</b></h1>
+<img src="https://github.com/RaiLokesh/slight-app/blob/master/client/public/circle-cropped.png?raw=true" height="100" width="150"></img><h1><b>Slight</b></h1>
 <br><br>
 Hey everyone,
 <br><br>
@@ -20,8 +20,9 @@ Let’s have a look at the website.
 <li>npm version: 6.14.5</li>
 </ul>
 <br> <br>
-<b>Remember to install the important dependencies.</b> Here’s the list of dependencies used for client and server.
-<br><ul>
+<b>Remember to install the important dependencies.</b> Here’s the list of dependencies used for client and server.</b>
+<br>
+<ul>
 <li>Get the dependencies for side client from <a href="https://github.com/RaiLokesh/slight-app/blob/master/client/package.json">package.json</a>
 <li>Get the dependencies for server side from <a href="https://github.com/RaiLokesh/slight-app/blob/master/package.json">package.json</a>
 </ul>
