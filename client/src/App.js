@@ -14,22 +14,22 @@ const Routing = () => {
   const {state, dispatch} = useContext(UserContext)
   useEffect(()=>{
     const user = (localStorage.getItem("user"))
-    //console.log(user==null)
     if(user==null){
       history.push('/')
     }
     else{
       dispatch({type:"USER", payload:user})
+      history.push('/home')
     }
     },[])
   return (
     <Switch>
       
         <Route exact path="/">
-          <Signup/>
-        </Route>
-        <Route path="/signin">
           <Signin/>
+        </Route>
+        <Route path="/signup">
+          <Signup/>
         </Route>
         <Route path="/home">
           <Home/>

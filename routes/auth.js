@@ -9,7 +9,7 @@ const requireLogin = require('../middleware/requireLogin')
 
 
 
-router.post('/', (req, res)=>{
+router.post('/signup', (req, res)=>{
     const {name, email, password} = req.body
     if(!email || !password || !name){
         return res.status(422).json({error:"All feilds are required!"})
@@ -46,7 +46,7 @@ router.post('/', (req, res)=>{
 
 
 
-router.post('/signin', (req, res)=>{
+router.post('/', (req, res)=>{
     const {email, password} = req.body
     if(!email || !password){
         return res.status(422).json({error:"All fields are important!"})

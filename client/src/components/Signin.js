@@ -13,7 +13,7 @@ const Signin = () => {
       M.toast({html: "Invalid email",classes:"#f44336 red"})
       return
     }
-    fetch(" http://localhost:5000/signin",{
+    fetch(" http://localhost:5000/",{
       method:"post",
       headers:{
         "Content-Type":"application/json"
@@ -56,7 +56,7 @@ const Signin = () => {
                 <br></br><br></br>
                 <button style={{borderRadius:"4px", fontFamily:"'Lexend', sans-serif", width:"30%", backgroundColor:"greenyellow", color:"#484848", fontWeight:""}} className="btn waves-effect waves-light" onClick={()=>PostData()}>Signin</button>
                 <br></br><br></br>
-                <Link to="/">Signup instead?</Link>
+                <Link to="/signup">Signup instead?</Link>
             </div>
         </div>
     )

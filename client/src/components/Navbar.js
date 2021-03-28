@@ -13,8 +13,8 @@ const Navbar = () => {
             return[
             <Link to="/" className="brand-logo left" style={{fontFamily: "Train One"}}>SLIGHT</Link>,
             <ul id="nav-mobile" className="right hide-on-med-and-down">
-                        <li key="1"><Link to="/signin">Signin</Link></li>
-                        <li key="2"><Link to="/">Signup</Link></li>
+                        <li key="1"><Link to="/signup">Signup</Link></li>
+                        <li key="2"><Link to="/">Signin</Link></li>
             </ul>   
             ]     
             
