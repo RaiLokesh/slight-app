@@ -54,7 +54,7 @@ const Signin = () => {
                 onChange={(e)=>setPasword(e.target.value)}
                 />
                 <br></br><br></br>
-                <button className="btn waves-effect waves-light" onClick={()=>PostData()}>Submit</button>
+                <button style={{borderRadius:"4px", fontFamily:"'Lexend', sans-serif", width:"30%", backgroundColor:"greenyellow", color:"#484848", fontWeight:""}} className="btn waves-effect waves-light" onClick={()=>PostData()}>Signin</button>
                 <br></br><br></br>
                 <Link to="/">Signup instead?</Link>
             </div>
