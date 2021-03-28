@@ -23,6 +23,7 @@ const Routing = () => {
     }
     },[])
   return (
+    
     <Switch>
       
         <Route exact path="/">
@@ -39,6 +40,7 @@ const Routing = () => {
         </Route>
       
     </Switch>
+    
   )
 }
 function App() {
@@ -46,7 +48,9 @@ function App() {
   return (
     <UserContext.Provider value={{state,dispatch}}>
     <BrowserRouter>
-    <Navbar/>
+    
+    <div className="back"></div>
+      <Navbar/>
       <Routing/>
       
       

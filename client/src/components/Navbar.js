@@ -37,15 +37,13 @@ const Navbar = () => {
         }
     }
     return (
-        
-            <nav style={{backgroundColor:"white"}}>
+            <nav className="home">
                 <div className="home-aligner">
                     <div className="nav-wrapper white" >
                         {renderList()}
                     </div>
                 </div>
             </nav>
-        
     )
 }
 

@@ -11,3 +11,11 @@ body {
 code {
   font-family: 'Lexend', sans-serif !important;
 }
+
+.back{
+  background-image: url('D:/Project Related (PERSONAL)/slight-app/client/src/wa.jpg');
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+}

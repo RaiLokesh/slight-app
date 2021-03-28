@@ -48,7 +48,7 @@ const Home = () => {
     }
     if (!data.length){
         return(
-            <h2 style={{textAlign:"center", paddingTop:"15%"}}>No Questions asked yet!</h2>
+            <h2 style={{textAlign:"center", paddingTop:"15%", color:"white", fontWeight:"bold"}}>No Questions asked yet!</h2>
         )
         
     }else{
@@ -61,6 +61,7 @@ const Home = () => {
                         
                         
                         return(
+                            
                             <div className="home-card" style={{textAlign:"center"}}>
                                 <u style={{color:"red"}}><h4>#{item.title}</h4></u>
                                 <br/>
@@ -86,6 +87,8 @@ const Home = () => {
                                     <input type="text" placeholder="Add a comment"/>
                                 </form>
                             </div>
+                            
+                            
                         )
                     })
                 
