@@ -16,8 +16,33 @@ I have used MongoDB, Express JS, React JS, and Node JS i.e. the MERN stack for m
 Let’s have a look at the website.
 <br><br>
 
+<h3>Signin Screen</h3>
+<img src = "https://github.com/RaiLokesh/slight-app/blob/master/demo-img/signin.jpg?raw=true" height="400" width="800"></img>
+<br>
 <h3>Signup Screen</h3>
-<img src = "https://github.com/RaiLokesh/slight-app/blob/master/demo-img/signin.jpg?raw=true" height="400" width="700"></img>
+<img src = "https://github.com/RaiLokesh/slight-app/blob/master/demo-img/signup.jpg?raw=true" height="400" width="800"></img>
+<br>
+<h3>Home Screen</h3>
+<img src = "https://github.com/RaiLokesh/slight-app/blob/master/demo-img/home.jpg?raw=true" height="400" width="800"></img>
+<br>
+<h3>Asking Question Screen</h3>
+<img src = "https://github.com/RaiLokesh/slight-app/blob/master/demo-img/ask.jpg?raw=true" height="400" width="800"></img>
+<br>
+<h3>Question Posting Screen</h3>
+<img src = "https://github.com/RaiLokesh/slight-app/blob/master/demo-img/asked.jpg?raw=true" height="400" width="800"></img>
+<br>
+<h3>Logged Out Screen</h3>
+<img src = "https://github.com/RaiLokesh/slight-app/blob/master/demo-img/loggedout.jpg?raw=true" height="400" width="800"></img>
+<br>
+<h3>Signing in with another account</h3>
+<img src = "https://github.com/RaiLokesh/slight-app/blob/master/demo-img/different%20account.jpg?raw=true" height="400" width="800"></img>
+<br>
+<h3>Adding comment</h3>
+<img src = "https://github.com/RaiLokesh/slight-app/blob/master/demo-img/typing%20comment.jpg?raw=true" height="400" width="800"></img>
+<br>
+<h3>Comment added screen</h3>
+<img src = "https://github.com/RaiLokesh/slight-app/blob/master/demo-img/added%20comment.jpg?raw=true" height="400" width="800"></img>
+<br>
 
 <ul>
 <li>node version: 14.3.0</li>
