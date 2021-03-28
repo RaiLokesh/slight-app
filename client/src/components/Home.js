@@ -83,7 +83,7 @@ const Home = () => {
                                 }}>
                                     <br/>
 
-                                    <input type="text" placeholder="Add an answer"/>
+                                    <input type="text" placeholder="Add a comment"/>
                                 </form>
                             </div>
                         )
